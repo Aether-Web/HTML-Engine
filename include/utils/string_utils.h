@@ -25,12 +25,14 @@ inline std::vector<std::string> split(const std::string& s, char delimiter) {
 }
 
 inline std::string toLower(std::string s) {
-    std::transform(s.begin(), s.end(), s.begin(), ::tolower);
+    std::transform(s.begin(), s.end(), s.begin(),
+        [](unsigned char c) { return static_cast<char>(std::tolower(c)); });
     return s;
 }
 
 inline std::string toUpper(std::string s) {
-    std::transform(s.begin(), s.end(), s.begin(), ::toupper);
+    std::transform(s.begin(), s.end(), s.begin(),
+        [](unsigned char c) { return static_cast<char>(std::toupper(c)); });
     return s;
 }
 

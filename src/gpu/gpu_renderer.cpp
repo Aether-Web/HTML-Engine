@@ -76,6 +76,7 @@ void GPURenderer::drawRect(const Rect& bounds, const Color& color) {
 }
 
 void GPURenderer::drawRoundedRect(const Rect& bounds, const Color& color, float /*radius*/) {
+    // TODO: implement true rounded corners; falls back to regular rect for now
     drawRect(bounds, color);
 }
 
