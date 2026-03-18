@@ -1,0 +1,74 @@
+Start testing: Mar 18 18:58 UTC
+----------------------------------------------------------
+1/3 Testing: LexerTests
+1/3 Test: LexerTests
+Command: "/home/runner/work/HTML-Engine/HTML-Engine/build/test_lexer"
+Directory: /home/runner/work/HTML-Engine/HTML-Engine/build
+"LexerTests" start time: Mar 18 18:58 UTC
+Output:
+----------------------------------------------------------
+=== Lexer Tests ===
+test_basic_tag: PASSED
+test_attributes: PASSED
+test_void_elements: PASSED
+test_doctype: PASSED
+test_comment: PASSED
+test_script_content: PASSED
+test_nested_tags: PASSED
+All lexer tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LexerTests" end time: Mar 18 18:58 UTC
+"LexerTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: ParserTests
+2/3 Test: ParserTests
+Command: "/home/runner/work/HTML-Engine/HTML-Engine/build/test_parser"
+Directory: /home/runner/work/HTML-Engine/HTML-Engine/build
+"ParserTests" start time: Mar 18 18:58 UTC
+Output:
+----------------------------------------------------------
+=== Parser Tests ===
+test_basic_structure: PASSED
+test_getElementById: PASSED
+test_querySelector: PASSED
+test_nested_elements: PASSED
+test_attributes_preserved: PASSED
+test_inline_style_parsed: PASSED
+test_text_content: PASSED
+All parser tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTests" end time: Mar 18 18:58 UTC
+"ParserTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: LayoutTests
+3/3 Test: LayoutTests
+Command: "/home/runner/work/HTML-Engine/HTML-Engine/build/test_layout"
+Directory: /home/runner/work/HTML-Engine/HTML-Engine/build
+"LayoutTests" start time: Mar 18 18:58 UTC
+Output:
+----------------------------------------------------------
+=== Layout Tests ===
+test_layout_viewport: PASSED (root width=800)
+test_layout_block_width: PASSED
+test_render_tree_build: PASSED
+test_render_commands: PASSED
+test_gpu_renderer: PASSED
+test_full_pipeline: PASSED (commands=3)
+All layout tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LayoutTests" end time: Mar 18 18:58 UTC
+"LayoutTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 18 18:58 UTC
