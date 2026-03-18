@@ -1,4 +1,0 @@
-LexerTests 1 0.00218715
-ParserTests 1 0.00195832
-LayoutTests 1 0.00894718
----
