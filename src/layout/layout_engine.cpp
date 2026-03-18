@@ -165,7 +165,6 @@ void LayoutEngine::calculateBlockPosition(LayoutBox& box, const BoxDimensions& c
         + box.dimensions.padding.left;
     
     box.dimensions.content.y = containingBlock.content.y
-        + containingBlock.content.height
         + box.dimensions.margin.top
         + box.dimensions.border.top
         + box.dimensions.padding.top;
